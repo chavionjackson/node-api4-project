@@ -1,13 +1,13 @@
-// const nanoid = require("nanoid")
+const shortId = require("shortId")
 
 const users = [
   {
-    // id: nanoid(),
+    id: shortId(),
     username: "Chevy",
     password: "chevy123",
   },
   {
-    // id: nanoid(),
+    id: shortId(),
     username: "Riley",
     password: "riley123",
   },
