@@ -6,14 +6,14 @@ const get = async () => {
   return users;
 };
 
-const newUser = ({ id ,username, password }) => {
-  const newUser = { id, username, password };
-  users.push(newUser)
+const newUser = ({ username, password }) => {
+  const newUser = { username, password };
+  users.push(newUser);
   return Promise.resolve(newUser);
 };
 
-const welcomeUser = async user => {
-    return users.filter(id => id === user.id)
-}
+const welcomeUser = async (user) => {
+  return users.filter((id) => id === user.id);
+};
 
 module.exports = { get, newUser, welcomeUser };
