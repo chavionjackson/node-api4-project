@@ -9,7 +9,6 @@ app.listen(port, () => {
 });
 
 //NOTES
-
 // app.use(express.json());
 // app.use(cors());
 // app.use("/api", (req, res) => {
