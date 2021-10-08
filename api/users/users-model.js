@@ -1,5 +1,5 @@
 const users = require("../../data/users");
-const shortId = require("shortid");
+// const shortId = require("shortid");
 const { json } = require("express");
 
 const get = async () => {
@@ -7,7 +7,7 @@ const get = async () => {
 };
 
 const newUser = ({ username, password }) => {
-  const newUser = { id: shortId(), username, password };
+  const newUser = { username, password };
   users.push(newUser)
   return Promise.resolve(newUser);
 };
