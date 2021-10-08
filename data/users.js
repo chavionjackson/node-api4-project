@@ -1,13 +1,13 @@
-// const shortId = require("shortId")
+const shortId = require("shortId")
 
 const users = [
   {
-    // id: shortId(),
+    id: shortId(),
     username: "Chevy",
     password: "chevy123",
   },
   {
-    // id: shortId(),
+    id: shortId(),
     username: "Riley",
     password: "riley123",
   },

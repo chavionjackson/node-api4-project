@@ -6,8 +6,8 @@ const get = async () => {
   return users;
 };
 
-const newUser = ({ username, password }) => {
-  const newUser = { username, password };
+const newUser = ({ id ,username, password }) => {
+  const newUser = { id, username, password };
   users.push(newUser)
   return Promise.resolve(newUser);
 };
