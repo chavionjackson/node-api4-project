@@ -8,6 +8,8 @@ app.listen(port, () => {
   console.log(`Server is alive and well! On port ${port}`);
 });
 
+//NOTES
+
 // app.use(express.json());
 // app.use(cors());
 // app.use("/api", (req, res) => {
